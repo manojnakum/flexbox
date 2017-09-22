@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Property</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <section>
+                <h2>Parent Property</h2>
+                <form>
+                    <fieldset id="flex-direction">
+                        <legend>Flex Direction</legend>
+                        <ul>
+                            <li>
+                                <input type="radio" value="row" name="flex-direction" checked>
+                                <label>row</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="row-reverse" name="flex-direction">
+                                <label>row-reverse</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="column" name="flex-direction">
+                                <label>column</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="column-reverse" name="flex-direction">
+                                <label>column-reverse</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset id="flex-wrap">
+                        <legend>Flex Wrap</legend>
+                        <ul>
+                            <li>
+                                <input type="radio" value="nowrap" name="flex-wrap" checked>
+                                <label>nowrap</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="wrap" name="flex-wrap">
+                                <label>wrap</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="wrap-reverse" name="flex-wrap">
+                                <label>wrap-reverse</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset id="justify-content">
+                        <legend>Justify Content</legend>
+                        <ul>
+                            <li>
+                                <input type="radio" value="flex-start" name="justify-content" checked>
+                                <label>flex-start</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="flex-end" name="justify-content">
+                                <label>flex-end</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="center" name="justify-content">
+                                <label>center</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="space-between" name="justify-content">
+                                <label>space-between</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="space-around" name="justify-content">
+                                <label>space-around</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="space-evenly" name="justify-content">
+                                <label>space-evenly</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset id="align-items">
+                        <legend>Align Items</legend>
+                        <ul>
+                            <li>
+                                <input type="radio" value="flex-start" name="align-items" checked>
+                                <label>flex-start</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="flex-end" name="align-items">
+                                <label>flex-end</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="center" name="align-items">
+                                <label>center</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="baseline" name="align-items">
+                                <label>baseline</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="stretch" name="align-items">
+                                <label>stretch</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset id="align-content">
+                        <legend>Align Content</legend>
+                        <p>Set Flex Wrap to 'wrap' to see effects</p>
+                        <ul>
+                            <li>
+                                <input type="radio" value="flex-start" name="align-content" checked>
+                                <label>flex-start</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="flex-end" name="align-content">
+                                <label>flex-end</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="center" name="align-content">
+                                <label>center</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="space-between" name="align-content">
+                                <label>space-between</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="space-around" name="align-content">
+                                <label>space-around</label>
+                            </li>
+                            <li>
+                                <input type="radio" value="stretch" name="align-content">
+                                <label>stretch</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </section>
+        </div>
+        <div class="content">
+            <div class="flex-container minimal flex-direction flex-wrap justify-content align-items align-content">
+                <div class="flex-item item1">
+                    <h3>Finibus Bonorum et Malorum</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus.</p>
+                    <p>At vero eos et accusamus et iusto.</p>
+                </div>
+                <div class="flex-item item2">
+                    <h4>Consequuntur magni dolores eos qui ratione voluptatem</h4>
+                    <p>At vero eos et accusamus et iusto.</p>
+                </div>
+                <div class="flex-item item3">
+                    <h2>Inventore veritatis et quasi</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="flex-item item4">
+                    <h5>Et harum quidem rerum facilis</h5>
+                    <p>Sed ut perspiciatis unde omnis iste natus.</p>
+                </div>
+                <div class="flex-item item5">
+                    <h4>Reiciendis voluptatibus maiores alias</h4>
+                    <p>At vero eos et accusamus et iusto.</p>
+                </div>
+                <div class="flex-item item6">
+                    <h1>architecto beatae</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="flex-item item7">
+                    <h3>Sed quia non numquam eius modi tempora</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus.</p>
+                </div>
+                <div class="flex-item item8">
+                    <h2>Quis nostrum exercitationem ullam</h2>
+                    <p>At vero eos et accusamus et iusto.</p>
+                </div>
+                <div class="flex-item item9">
+                    <h6>Aut odit aut fugit</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

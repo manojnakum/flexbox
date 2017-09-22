@@ -1,0 +1,48 @@
+.sidebar {
+	width: 360px;
+	background: #FFECD0;
+	padding: 15px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	overflow: hidden;
+	overflow-y: auto;
+	fieldset {
+		+ fieldset {
+			margin-top: 20px;
+		}
+	}
+	ul {
+		li + li {
+			margin-top: 5px;
+		}
+	}
+}
+.content {
+	float: right;
+	width: calc(100% - 360px);
+	padding: 15px;
+}
+.flex-container {
+	@include flexbox;
+	min-height: 500px;
+	background: #eee;
+	border: 1px solid #aaa;
+	padding: 20px;
+	.flex-item {
+		background: white;
+		padding: 15px;
+		border: 1px solid #aaa;
+	}
+	&.minimal {
+		.item4,
+		.item5,
+		.item6,
+		.item7,
+		.item8,
+		.item9 {
+			display: none;
+		}
+	}
+}
